@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE = edge" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Carousel (image slider)</title>
+</head>
+
+<body>
+    <div class="slider-container">
+        <i class="fas fa-arrow-circle-right" id="next"></i>
+        <i class="fas fa-arrow-circle-left" id="prev"></i>
+        <div class="imageslider">
+            <img src="../images/5.jpg" alt="slide5" id="lastClone" />
+            <img src="../images/1.jpg" alt="slide 1" id="img-1" class = "active"/>
+            <img src="../images/2.jpg" alt="slide 2" id="img-2" />
+            <img src="../images/3.jpg" alt="slide 3" id="img-3" />
+            <img src="../images/4.jpg" alt="slide 4" id="img-4" />
+            <img src="../images/5.jpg" alt="slide 5" id="img-5" />
+            <img src="../images/1.jpg" alt="slide 1" id="firstClone" />
+        </div>
+        <div class="button-container">
+                <div class="btn active" id="1"></div>
+                <div class="btn" id="2"></div>
+                <div class="btn" id="3"></div>
+                <div class="btn" id="4"></div>
+                <div class="btn" id="5"></div>
+        </div>
+    </div>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
